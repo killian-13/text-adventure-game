@@ -151,6 +151,7 @@ def location_4(has_key, has_sword):
                 location_3(has_key)
               elif action == ("go south"):
                 location_1()
+                return
               else:
                 print("Invalid action")
                 print("")
@@ -171,6 +172,7 @@ def location_4(has_key, has_sword):
     location_3(has_key, has_sword)
   elif action == ("go south"):
     location_1()
+    return
 
   else:
     print("Invalid action")
